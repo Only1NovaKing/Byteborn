@@ -1,10 +1,9 @@
-Byteborn.game
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byteborn: Cyberpunk RPG</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
@@ -16,7 +15,13 @@ Byteborn.game
     <main>
         <section id="about">
             <h2>Neon Dreams Await</h2>
-            <p>I'm BytebornDev, a daily Pi miner crafting <em>Byteborn</em>, a cyberpunk RPG on Pi App Studio (Beta). Explore Neon Sprawl with Fishing, Battling, & Customization. Join the Art Crew on Pixilart to create 8-bit neon sprites & earn credit! 13+ safe, no IP issues. Let’s spark Pi’s economy by Jan 2026! <a href="join-the-byteborn-art-team-3bb7885f37" target="_blank">Join Now</a></p>
+            <p>
+                I'm BytebornDev, a daily Pi miner crafting <em>Byteborn</em>, a cyberpunk RPG on Pi App Studio (Beta).
+                Explore Neon Sprawl with Fishing, Battling, & Customization.
+                Join the Art Crew on Pixilart to create 8-bit neon sprites & earn credit! 13+ safe, no IP issues.
+                Let’s spark Pi’s economy by Jan 2026!
+                <a href="#" target="_blank" id="pixilart-link">Join Now</a>
+            </p>
         </section>
         <section id="credits">
             <h2>Artist Credits</h2>
@@ -25,7 +30,43 @@ Byteborn.game
         <section id="prompt-reader">
             <h2>Submit Game Prompt</h2>
             <textarea id="prompt-input" maxlength="140" placeholder="Enter 140-character game prompt"></textarea>
-            <button onclick="submitPrompt()">Submit</button>
+            <button id="submit-btn">Submit</button>
+            <p id="prompt-feedback"></p>
+        </section>
+    </main>
+    <footer><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byteborn: Cyberpunk RPG</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Byteborn</h1>
+        <p>A Cyberpunk RPG on Pi Network</p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Neon Dreams Await</h2>
+            <p>
+                I'm BytebornDev, a daily Pi miner crafting <em>Byteborn</em>, a cyberpunk RPG on Pi App Studio (Beta).
+                Explore Neon Sprawl with Fishing, Battling, & Customization.
+                Join the Art Crew on Pixilart to create 8-bit neon sprites & earn credit! 13+ safe, no IP issues.
+                Let’s spark Pi’s economy by Jan 2026!
+                <a href="#" target="_blank" id="pixilart-link">Join Now</a>
+            </p>
+        </section>
+        <section id="credits">
+            <h2>Artist Credits</h2>
+            <ul id="artist-list"></ul>
+        </section>
+        <section id="prompt-reader">
+            <h2>Submit Game Prompt</h2>
+            <textarea id="prompt-input" maxlength="140" placeholder="Enter 140-character game prompt"></textarea>
+            <button id="submit-btn">Submit</button>
             <p id="prompt-feedback"></p>
         </section>
     </main>
@@ -35,10 +76,13 @@ Byteborn.game
     <script src="script.js"></script>
 </body>
 </html>
+        <p>&copy; 2026 Tyler J Applegate. Byteborn art owned by Tyler J Applegate. No IP copying. <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
 
 
-
-CSS (Styles. ccs):
 body {
     background: #1a1a1a;
     color: #00FFFF;
@@ -105,8 +149,6 @@ footer {
     width: 100%;
 }
 
-
-Javascript (script.js):
 // Artist credits (update with Pixilart usernames)
 const artists = [
     { name: "ArtCrewUser1", contribution: "Neon Fish" },
@@ -134,9 +176,12 @@ function submitPrompt() {
     }
 }
 
-
-Privacy Policy (privacy.html):
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byteborn P<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -149,11 +194,26 @@ Privacy Policy (privacy.html):
         <h1>Byteborn Privacy Policy</h1>
     </header>
     <main>
-        <p>*Byteborn* collects no data on this site. The game uses Pi API for username and PGS transactions, 13+ safe, 18+ for Pi mining per Pi Network’s KYC. Contact: byteborn.art@gmail.com</p>
+        <p><em>Byteborn</em> collects no data on this site. The game uses Pi API for username and PGS transactions, 13+ safe, 18+ for Pi mining per Pi Network’s KYC. Contact: byteborn.art@gmail.com</p>
         <a href="index.html">Back to Home</a>
     </main>
     <footer>
-        <p>&copy; 2026 Tyler J Applegate.</p>
+        <p>&copy; 2026 [Tyler J Applegate].</p>
+    </footer>
+</body>
+</html>rivacy Policy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Byteborn Privacy Policy</h1>
+    </header>
+    <main>
+        <p><em>Byteborn</em> collects no data on this site. The game uses Pi API for username and PGS transactions, 13+ safe, 18+ for Pi mining per Pi Network’s KYC. Contact: byteborn.art@gmail.com</p>
+        <a href="index.html">Back to Home</a>
+    </main>
+    <footer>
+        <p>&copy; 2026 [Tyler J Applegate].</p>
     </footer>
 </body>
 </html>
