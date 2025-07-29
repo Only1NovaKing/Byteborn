@@ -15,13 +15,7 @@
     <main>
         <section id="about">
             <h2>Neon Dreams Await</h2>
-            <p>
-                I'm BytebornDev, a daily Pi miner crafting <em>Byteborn</em>, a cyberpunk RPG on Pi App Studio (Beta).
-                Explore Neon Sprawl with Fishing, Battling, & Customization.
-                Join the Art Crew on Pixilart to create 8-bit neon sprites & earn credit! 13+ safe, no IP issues.
-                Let’s spark Pi’s economy by Jan 2026!
-                <a href="#" target="_blank" id="pixilart-link">Join Now</a>
-            </p>
+            <p>I'm BytebornDev, a daily Pi miner crafting <em>Byteborn</em>, a cyberpunk RPG on Pi App Studio (Beta). Explore Neon Sprawl with Fishing, Battling, & Customization. Join the Art Crew on Pixilart to create 8-bit neon sprites & earn credit! 13+ safe, no IP issues. Let’s spark Pi’s economy by Jan 2026! <a href="https://www.pixilart.com/groups/join-the-byteborn-art-team-3bb7885f37" target="_blank">Join Now</a></p>
         </section>
         <section id="credits">
             <h2>Artist Credits</h2>
@@ -30,11 +24,16 @@
         <section id="prompt-reader">
             <h2>Submit Game Prompt</h2>
             <textarea id="prompt-input" maxlength="140" placeholder="Enter 140-character game prompt"></textarea>
-            <button id="submit-btn">Submit</button>
+            <button onclick="submitPrompt()">Submit</button>
             <p id="prompt-feedback"></p>
         </section>
     </main>
-    <footer><!DOCTYPE html>
+    <footer>
+        <p>&copy; 2026 [Tyler J Applegate]. Byteborn art owned by [Tyler J Applegate]. No IP copying. <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -51,13 +50,7 @@
     <main>
         <section id="about">
             <h2>Neon Dreams Await</h2>
-            <p>
-                I'm BytebornDev, a daily Pi miner crafting <em>Byteborn</em>, a cyberpunk RPG on Pi App Studio (Beta).
-                Explore Neon Sprawl with Fishing, Battling, & Customization.
-                Join the Art Crew on Pixilart to create 8-bit neon sprites & earn credit! 13+ safe, no IP issues.
-                Let’s spark Pi’s economy by Jan 2026!
-                <a href="#" target="_blank" id="pixilart-link">Join Now</a>
-            </p>
+            <p>I'm BytebornDev, a daily Pi miner crafting <em>Byteborn</em>, a cyberpunk RPG on Pi App Studio (Beta). Explore Neon Sprawl with Fishing, Battling, & Customization. Join the Art Crew on Pixilart to create 8-bit neon sprites & earn credit! 13+ safe, no IP issues. Let’s spark Pi’s economy by Jan 2026! <a href="https://www.pixilart.com/groups/join-the-byteborn-art-team-3bb7885f37" target="_blank">Join Now</a></p>
         </section>
         <section id="credits">
             <h2>Artist Credits</h2>
@@ -66,17 +59,12 @@
         <section id="prompt-reader">
             <h2>Submit Game Prompt</h2>
             <textarea id="prompt-input" maxlength="140" placeholder="Enter 140-character game prompt"></textarea>
-            <button id="submit-btn">Submit</button>
+            <button onclick="submitPrompt()">Submit</button>
             <p id="prompt-feedback"></p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 Tyler J Applegate. Byteborn art owned by Tyler J Applegate. No IP copying. <a href="privacy.html">Privacy Policy</a></p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
-        <p>&copy; 2026 Tyler J Applegate. Byteborn art owned by Tyler J Applegate. No IP copying. <a href="privacy.html">Privacy Policy</a></p>
+        <p>&copy; 2026 [Tyler J Applegate]. Byteborn art owned by [Tyler J Applegate]. No IP copying. <a href="privacy.html">Privacy Policy</a></p>
     </footer>
     <script src="script.js"></script>
 </body>
