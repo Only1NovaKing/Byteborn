@@ -213,7 +213,7 @@ function submitPrompt() {
         <a href="index.html">Back to Home</a>
     </main>
     <footer>
-        <p>&copy; 2026 [Tyler J Applegate].</p>
+        <p>&copy; 2026 Tyler J Applegate.</p>
     </footer>
 </body>
 </html>
